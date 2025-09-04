@@ -1,0 +1,1092 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Image Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        .pair {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+        }
+        .image-container {
+            text-align: center;
+            margin: 0 15px;
+        }
+        img {
+            max-width: 400px;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        .caption {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+        .missing {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input vs Output Image Comparison</h1>
+
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/0BYZodoqfSIog8Wq_86Pcw.jpg" alt="Input Image">
+            <div class="caption">Input: 0BYZodoqfSIog8Wq_86Pcw.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/0BYZodoqfSIog8Wq_86Pcw_output.jpg" alt="Output Image">
+            <div class="caption">Output: 0BYZodoqfSIog8Wq_86Pcw_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/0Gorezr4O2NfRAHkEfyZZg.jpg" alt="Input Image">
+            <div class="caption">Input: 0Gorezr4O2NfRAHkEfyZZg.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/0Gorezr4O2NfRAHkEfyZZg_output.jpg" alt="Output Image">
+            <div class="caption">Output: 0Gorezr4O2NfRAHkEfyZZg_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/0hfmiSEJtXFYhxs4XxR7PA.jpg" alt="Input Image">
+            <div class="caption">Input: 0hfmiSEJtXFYhxs4XxR7PA.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/0hfmiSEJtXFYhxs4XxR7PA_output.jpg" alt="Output Image">
+            <div class="caption">Output: 0hfmiSEJtXFYhxs4XxR7PA_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/0tysbnnKZGOk-SyzweASaA.jpg" alt="Input Image">
+            <div class="caption">Input: 0tysbnnKZGOk-SyzweASaA.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/0tysbnnKZGOk-SyzweASaA_output.jpg" alt="Output Image">
+            <div class="caption">Output: 0tysbnnKZGOk-SyzweASaA_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/1_wVzEv_cTx9P00b62WOGg.jpg" alt="Input Image">
+            <div class="caption">Input: 1_wVzEv_cTx9P00b62WOGg.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/1_wVzEv_cTx9P00b62WOGg_output.jpg" alt="Output Image">
+            <div class="caption">Output: 1_wVzEv_cTx9P00b62WOGg_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/1a2bb6e318591cc40d280880bf23e259.jpg" alt="Input Image">
+            <div class="caption">Input: 1a2bb6e318591cc40d280880bf23e259.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/1a2bb6e318591cc40d280880bf23e259_output.jpg" alt="Output Image">
+            <div class="caption">Output: 1a2bb6e318591cc40d280880bf23e259_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/1BvLhmNMa6A3aTiKezxSXA.jpg" alt="Input Image">
+            <div class="caption">Input: 1BvLhmNMa6A3aTiKezxSXA.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/1BvLhmNMa6A3aTiKezxSXA_output.jpg" alt="Output Image">
+            <div class="caption">Output: 1BvLhmNMa6A3aTiKezxSXA_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/1QE42YpA12FL6uWezE-d1w.jpg" alt="Input Image">
+            <div class="caption">Input: 1QE42YpA12FL6uWezE-d1w.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/1QE42YpA12FL6uWezE-d1w_output.jpg" alt="Output Image">
+            <div class="caption">Output: 1QE42YpA12FL6uWezE-d1w_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/2-CkLq8O-FDPSzxodmBCiQ.jpg" alt="Input Image">
+            <div class="caption">Input: 2-CkLq8O-FDPSzxodmBCiQ.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/2-CkLq8O-FDPSzxodmBCiQ_output.jpg" alt="Output Image">
+            <div class="caption">Output: 2-CkLq8O-FDPSzxodmBCiQ_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/2b3f30bd3ea9a4fe2fd1bb556551b621.jpg" alt="Input Image">
+            <div class="caption">Input: 2b3f30bd3ea9a4fe2fd1bb556551b621.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/2b3f30bd3ea9a4fe2fd1bb556551b621_output.jpg" alt="Output Image">
+            <div class="caption">Output: 2b3f30bd3ea9a4fe2fd1bb556551b621_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/2J_PWeEiGEgP3R8RM85j2w.jpg" alt="Input Image">
+            <div class="caption">Input: 2J_PWeEiGEgP3R8RM85j2w.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/2J_PWeEiGEgP3R8RM85j2w_output.jpg" alt="Output Image">
+            <div class="caption">Output: 2J_PWeEiGEgP3R8RM85j2w_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/4JeeUs0EFETa_bGCGi3PMA.jpg" alt="Input Image">
+            <div class="caption">Input: 4JeeUs0EFETa_bGCGi3PMA.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/4JeeUs0EFETa_bGCGi3PMA_output.jpg" alt="Output Image">
+            <div class="caption">Output: 4JeeUs0EFETa_bGCGi3PMA_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/4LjjJT9HVf2y9RVs62Vjhw.jpg" alt="Input Image">
+            <div class="caption">Input: 4LjjJT9HVf2y9RVs62Vjhw.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/4LjjJT9HVf2y9RVs62Vjhw_output.jpg" alt="Output Image">
+            <div class="caption">Output: 4LjjJT9HVf2y9RVs62Vjhw_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/534214591O-1755123030695.jpg" alt="Input Image">
+            <div class="caption">Input: 534214591O-1755123030695.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/534214591O-1755123030695_output.jpg" alt="Output Image">
+            <div class="caption">Output: 534214591O-1755123030695_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/534214601O-1755123413282.jpg" alt="Input Image">
+            <div class="caption">Input: 534214601O-1755123413282.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/534214601O-1755123413282_output.jpg" alt="Output Image">
+            <div class="caption">Output: 534214601O-1755123413282_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/610613773O-1755128982454.jpg" alt="Input Image">
+            <div class="caption">Input: 610613773O-1755128982454.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/610613773O-1755128982454_output.jpg" alt="Output Image">
+            <div class="caption">Output: 610613773O-1755128982454_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/611789017O-1755181075831.jpg" alt="Input Image">
+            <div class="caption">Input: 611789017O-1755181075831.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/611789017O-1755181075831_output.jpg" alt="Output Image">
+            <div class="caption">Output: 611789017O-1755181075831_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/615884301O-1755179612263.jpg" alt="Input Image">
+            <div class="caption">Input: 615884301O-1755179612263.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/615884301O-1755179612263_output.jpg" alt="Output Image">
+            <div class="caption">Output: 615884301O-1755179612263_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/615884905O-1755180014908.jpg" alt="Input Image">
+            <div class="caption">Input: 615884905O-1755180014908.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/615884905O-1755180014908_output.jpg" alt="Output Image">
+            <div class="caption">Output: 615884905O-1755180014908_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/616268973O-1755045862046.jpg" alt="Input Image">
+            <div class="caption">Input: 616268973O-1755045862046.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/616268973O-1755045862046_output.jpg" alt="Output Image">
+            <div class="caption">Output: 616268973O-1755045862046_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/617615935O-1752160354109.jpg" alt="Input Image">
+            <div class="caption">Input: 617615935O-1752160354109.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/617615935O-1752160354109_output.jpg" alt="Output Image">
+            <div class="caption">Output: 617615935O-1752160354109_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/619108157O-1753118091896.jpg" alt="Input Image">
+            <div class="caption">Input: 619108157O-1753118091896.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/619108157O-1753118091896_output.jpg" alt="Output Image">
+            <div class="caption">Output: 619108157O-1753118091896_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/619108161O-1753118092020.jpg" alt="Input Image">
+            <div class="caption">Input: 619108161O-1753118092020.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/619108161O-1753118092020_output.jpg" alt="Output Image">
+            <div class="caption">Output: 619108161O-1753118092020_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/689a05ba-a3eb-41f9-baaf-6e55f388e667.jpg" alt="Input Image">
+            <div class="caption">Input: 689a05ba-a3eb-41f9-baaf-6e55f388e667.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/689a05ba-a3eb-41f9-baaf-6e55f388e667_output.jpg" alt="Output Image">
+            <div class="caption">Output: 689a05ba-a3eb-41f9-baaf-6e55f388e667_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/6h78awh_1730112077_527702079_optOrig.jpg" alt="Input Image">
+            <div class="caption">Input: 6h78awh_1730112077_527702079_optOrig.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/6h78awh_1730112077_527702079_optOrig_output.jpg" alt="Output Image">
+            <div class="caption">Output: 6h78awh_1730112077_527702079_optOrig_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/7af42e48362503024bcaab2b147adf51.jpg" alt="Input Image">
+            <div class="caption">Input: 7af42e48362503024bcaab2b147adf51.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/7af42e48362503024bcaab2b147adf51_output.jpg" alt="Output Image">
+            <div class="caption">Output: 7af42e48362503024bcaab2b147adf51_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/8a9fcf8283074fdf018307a2265541c7_168601_278656_large.jpg" alt="Input Image">
+            <div class="caption">Input: 8a9fcf8283074fdf018307a2265541c7_168601_278656_large.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/8a9fcf8283074fdf018307a2265541c7_168601_278656_large_output.jpg" alt="Output Image">
+            <div class="caption">Output: 8a9fcf8283074fdf018307a2265541c7_168601_278656_large_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/8updtmy_1730112639_527704645_optOrig.jpg" alt="Input Image">
+            <div class="caption">Input: 8updtmy_1730112639_527704645_optOrig.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/8updtmy_1730112639_527704645_optOrig_output.jpg" alt="Output Image">
+            <div class="caption">Output: 8updtmy_1730112639_527704645_optOrig_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/_0ZLZEpBrN8d2YGqPYQSlA.jpg" alt="Input Image">
+            <div class="caption">Input: _0ZLZEpBrN8d2YGqPYQSlA.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/_0ZLZEpBrN8d2YGqPYQSlA_output.jpg" alt="Output Image">
+            <div class="caption">Output: _0ZLZEpBrN8d2YGqPYQSlA_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/_69EblZbqXUcjYKu7myKDg.jpg" alt="Input Image">
+            <div class="caption">Input: _69EblZbqXUcjYKu7myKDg.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/_69EblZbqXUcjYKu7myKDg_output.jpg" alt="Output Image">
+            <div class="caption">Output: _69EblZbqXUcjYKu7myKDg_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/_oU4UcfQXBoljdL-s1EDyQ.jpg" alt="Input Image">
+            <div class="caption">Input: _oU4UcfQXBoljdL-s1EDyQ.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/_oU4UcfQXBoljdL-s1EDyQ_output.jpg" alt="Output Image">
+            <div class="caption">Output: _oU4UcfQXBoljdL-s1EDyQ_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/alberts-flat-2.jpg" alt="Input Image">
+            <div class="caption">Input: alberts-flat-2.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/alberts-flat-2_output.jpg" alt="Output Image">
+            <div class="caption">Output: alberts-flat-2_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/b44f36e55b6c3230e76ef355b1c43bca.jpg" alt="Input Image">
+            <div class="caption">Input: b44f36e55b6c3230e76ef355b1c43bca.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/b44f36e55b6c3230e76ef355b1c43bca_output.jpg" alt="Output Image">
+            <div class="caption">Output: b44f36e55b6c3230e76ef355b1c43bca_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/corrugated-roof-village-home-design.jpg" alt="Input Image">
+            <div class="caption">Input: corrugated-roof-village-home-design.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/corrugated-roof-village-home-design_output.jpg" alt="Output Image">
+            <div class="caption">Output: corrugated-roof-village-home-design_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/d08d6do_1730112076_527702071_optOrig.jpg" alt="Input Image">
+            <div class="caption">Input: d08d6do_1730112076_527702071_optOrig.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/d08d6do_1730112076_527702071_optOrig_output.jpg" alt="Output Image">
+            <div class="caption">Output: d08d6do_1730112076_527702071_optOrig_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/DJI_0309-2-1714825544-scaled.jpg" alt="Input Image">
+            <div class="caption">Input: DJI_0309-2-1714825544-scaled.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/DJI_0309-2-1714825544-scaled_output.jpg" alt="Output Image">
+            <div class="caption">Output: DJI_0309-2-1714825544-scaled_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/DSC06268.jpg" alt="Input Image">
+            <div class="caption">Input: DSC06268.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/DSC06268_output.jpg" alt="Output Image">
+            <div class="caption">Output: DSC06268_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/e5f35921-8877-473a-ba3c-2fc935fe8574.jpg" alt="Input Image">
+            <div class="caption">Input: e5f35921-8877-473a-ba3c-2fc935fe8574.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/e5f35921-8877-473a-ba3c-2fc935fe8574_output.jpg" alt="Output Image">
+            <div class="caption">Output: e5f35921-8877-473a-ba3c-2fc935fe8574_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/eedf5b17-fed2-8138-c48d-49a4ee800008.jpg" alt="Input Image">
+            <div class="caption">Input: eedf5b17-fed2-8138-c48d-49a4ee800008.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/eedf5b17-fed2-8138-c48d-49a4ee800008_output.jpg" alt="Output Image">
+            <div class="caption">Output: eedf5b17-fed2-8138-c48d-49a4ee800008_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/exterior-prabu-shankar-photography-img~9091b32708c3e2c0_14-4962-1-014eac2.jpg" alt="Input Image">
+            <div class="caption">Input: exterior-prabu-shankar-photography-img~9091b32708c3e2c0_14-4962-1-014eac2.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/exterior-prabu-shankar-photography-img~9091b32708c3e2c0_14-4962-1-014eac2_output.jpg" alt="Output Image">
+            <div class="caption">Output: exterior-prabu-shankar-photography-img~9091b32708c3e2c0_14-4962-1-014eac2_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/f7a7444becdd0f1e2a9e8e49551c9246.jpg" alt="Input Image">
+            <div class="caption">Input: f7a7444becdd0f1e2a9e8e49551c9246.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/f7a7444becdd0f1e2a9e8e49551c9246_output.jpg" alt="Output Image">
+            <div class="caption">Output: f7a7444becdd0f1e2a9e8e49551c9246_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/image (1).png" alt="Input Image">
+            <div class="caption">Input: image (1).png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/image (1)_output.png" alt="Output Image">
+            <div class="caption">Output: image (1)_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/image (n).png" alt="Input Image">
+            <div class="caption">Input: image (n).png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/image (n)_output.png" alt="Output Image">
+            <div class="caption">Output: image (n)_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagea.png" alt="Input Image">
+            <div class="caption">Input: imagea.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagea_output.png" alt="Output Image">
+            <div class="caption">Output: imagea_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imageb.png" alt="Input Image">
+            <div class="caption">Input: imageb.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imageb_output.png" alt="Output Image">
+            <div class="caption">Output: imageb_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagec.png" alt="Input Image">
+            <div class="caption">Input: imagec.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagec_output.png" alt="Output Image">
+            <div class="caption">Output: imagec_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imaged.png" alt="Input Image">
+            <div class="caption">Input: imaged.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imaged_output.png" alt="Output Image">
+            <div class="caption">Output: imaged_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagef.png" alt="Input Image">
+            <div class="caption">Input: imagef.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagef_output.png" alt="Output Image">
+            <div class="caption">Output: imagef_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imageg.png" alt="Input Image">
+            <div class="caption">Input: imageg.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imageg_output.png" alt="Output Image">
+            <div class="caption">Output: imageg_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imageh.png" alt="Input Image">
+            <div class="caption">Input: imageh.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imageh_output.png" alt="Output Image">
+            <div class="caption">Output: imageh_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagei.png" alt="Input Image">
+            <div class="caption">Input: imagei.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagei_output.png" alt="Output Image">
+            <div class="caption">Output: imagei_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagej.png" alt="Input Image">
+            <div class="caption">Input: imagej.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagej_output.png" alt="Output Image">
+            <div class="caption">Output: imagej_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagek.png" alt="Input Image">
+            <div class="caption">Input: imagek.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagek_output.png" alt="Output Image">
+            <div class="caption">Output: imagek_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagem.png" alt="Input Image">
+            <div class="caption">Input: imagem.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagem_output.png" alt="Output Image">
+            <div class="caption">Output: imagem_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imageo.png" alt="Input Image">
+            <div class="caption">Input: imageo.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imageo_output.png" alt="Output Image">
+            <div class="caption">Output: imageo_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagep.png" alt="Input Image">
+            <div class="caption">Input: imagep.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagep_output.png" alt="Output Image">
+            <div class="caption">Output: imagep_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagepp.png" alt="Input Image">
+            <div class="caption">Input: imagepp.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagepp_output.png" alt="Output Image">
+            <div class="caption">Output: imagepp_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imager.png" alt="Input Image">
+            <div class="caption">Input: imager.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imager_output.png" alt="Output Image">
+            <div class="caption">Output: imager_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/images.png" alt="Input Image">
+            <div class="caption">Input: images.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/images_output.png" alt="Output Image">
+            <div class="caption">Output: images_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagew.png" alt="Input Image">
+            <div class="caption">Input: imagew.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagew_output.png" alt="Output Image">
+            <div class="caption">Output: imagew_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagex.png" alt="Input Image">
+            <div class="caption">Input: imagex.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagex_output.png" alt="Output Image">
+            <div class="caption">Output: imagex_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagey.png" alt="Input Image">
+            <div class="caption">Input: imagey.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagey_output.png" alt="Output Image">
+            <div class="caption">Output: imagey_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imagez.png" alt="Input Image">
+            <div class="caption">Input: imagez.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imagez_output.png" alt="Output Image">
+            <div class="caption">Output: imagez_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/IMG_4712-scaled.jpg" alt="Input Image">
+            <div class="caption">Input: IMG_4712-scaled.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/IMG_4712-scaled_output.jpg" alt="Output Image">
+            <div class="caption">Output: IMG_4712-scaled_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/imj.png" alt="Input Image">
+            <div class="caption">Input: imj.png</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/imj_output.png" alt="Output Image">
+            <div class="caption">Output: imj_output.png</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/Indian_village_home.jpg" alt="Input Image">
+            <div class="caption">Input: Indian_village_home.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/Indian_village_home_output.jpg" alt="Output Image">
+            <div class="caption">Output: Indian_village_home_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/ongriddesign_blog_triplex_elevation_1024x1024.jpg" alt="Input Image">
+            <div class="caption">Input: ongriddesign_blog_triplex_elevation_1024x1024.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/ongriddesign_blog_triplex_elevation_1024x1024_output.jpg" alt="Output Image">
+            <div class="caption">Output: ongriddesign_blog_triplex_elevation_1024x1024_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/pexels-expect-best-79873-323780.jpg" alt="Input Image">
+            <div class="caption">Input: pexels-expect-best-79873-323780.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/pexels-expect-best-79873-323780_output.jpg" alt="Output Image">
+            <div class="caption">Output: pexels-expect-best-79873-323780_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1516180598628-a57a3dda1a80.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1516180598628-a57a3dda1a80.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1516180598628-a57a3dda1a80_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1516180598628-a57a3dda1a80_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1558036117-15d82a90b9b1.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1558036117-15d82a90b9b1.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1558036117-15d82a90b9b1_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1558036117-15d82a90b9b1_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1568293207619-df44ae062a9c.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1568293207619-df44ae062a9c.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1568293207619-df44ae062a9c_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1568293207619-df44ae062a9c_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1590520326731-ddeee2bfebf8.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1590520326731-ddeee2bfebf8.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1590520326731-ddeee2bfebf8_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1590520326731-ddeee2bfebf8_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1591474200742-8e512e6f98f8.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1591474200742-8e512e6f98f8.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1591474200742-8e512e6f98f8_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1591474200742-8e512e6f98f8_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1604062215216-f417b2778726.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1604062215216-f417b2778726.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1604062215216-f417b2778726_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1604062215216-f417b2778726_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/photo-1663057276815-0e07863a2e46.jpg" alt="Input Image">
+            <div class="caption">Input: photo-1663057276815-0e07863a2e46.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/photo-1663057276815-0e07863a2e46_output.jpg" alt="Output Image">
+            <div class="caption">Output: photo-1663057276815-0e07863a2e46_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/premium_photo-1661883982941-50af7720a6ff.jpg" alt="Input Image">
+            <div class="caption">Input: premium_photo-1661883982941-50af7720a6ff.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/premium_photo-1661883982941-50af7720a6ff_output.jpg" alt="Output Image">
+            <div class="caption">Output: premium_photo-1661883982941-50af7720a6ff_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/premium_photo-1680300960892-bd11b59b469b (1).jpg" alt="Input Image">
+            <div class="caption">Input: premium_photo-1680300960892-bd11b59b469b (1).jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/premium_photo-1680300960892-bd11b59b469b (1)_output.jpg" alt="Output Image">
+            <div class="caption">Output: premium_photo-1680300960892-bd11b59b469b (1)_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/premium_photo-1680300960892-bd11b59b469b.jpg" alt="Input Image">
+            <div class="caption">Input: premium_photo-1680300960892-bd11b59b469b.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/premium_photo-1680300960892-bd11b59b469b_output.jpg" alt="Output Image">
+            <div class="caption">Output: premium_photo-1680300960892-bd11b59b469b_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/premium_photo-1692388619456-641ea333bcb6.jpg" alt="Input Image">
+            <div class="caption">Input: premium_photo-1692388619456-641ea333bcb6.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/premium_photo-1692388619456-641ea333bcb6_output.jpg" alt="Output Image">
+            <div class="caption">Output: premium_photo-1692388619456-641ea333bcb6_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/R.jpg" alt="Input Image">
+            <div class="caption">Input: R.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/R_output.jpg" alt="Output Image">
+            <div class="caption">Output: R_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/RAW_Architecture_-_Kembang_Murni_House_16.jpg" alt="Input Image">
+            <div class="caption">Input: RAW_Architecture_-_Kembang_Murni_House_16.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/RAW_Architecture_-_Kembang_Murni_House_16_output.jpg" alt="Output Image">
+            <div class="caption">Output: RAW_Architecture_-_Kembang_Murni_House_16_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/Repropix-Exterior-Images-P2-4.jpg" alt="Input Image">
+            <div class="caption">Input: Repropix-Exterior-Images-P2-4.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/Repropix-Exterior-Images-P2-4_output.jpg" alt="Output Image">
+            <div class="caption">Output: Repropix-Exterior-Images-P2-4_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/Residential-13-2048x1365.jpg" alt="Input Image">
+            <div class="caption">Input: Residential-13-2048x1365.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/Residential-13-2048x1365_output.jpg" alt="Output Image">
+            <div class="caption">Output: Residential-13-2048x1365_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/ujknskv.jpg" alt="Input Image">
+            <div class="caption">Input: ujknskv.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/ujknskv_output.jpg" alt="Output Image">
+            <div class="caption">Output: ujknskv_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/usncks.jpg" alt="Input Image">
+            <div class="caption">Input: usncks.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/usncks_output.jpg" alt="Output Image">
+            <div class="caption">Output: usncks_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/vmkrkdp_1744113911_584796911_optOrig.jpg" alt="Input Image">
+            <div class="caption">Input: vmkrkdp_1744113911_584796911_optOrig.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/vmkrkdp_1744113911_584796911_optOrig_output.jpg" alt="Output Image">
+            <div class="caption">Output: vmkrkdp_1744113911_584796911_optOrig_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp Image 2025-08-25 at 12.42.47.jpeg" alt="Input Image">
+            <div class="caption">Input: WhatsApp Image 2025-08-25 at 12.42.47.jpeg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp Image 2025-08-25 at 12.42.47_output.jpeg" alt="Output Image">
+            <div class="caption">Output: WhatsApp Image 2025-08-25 at 12.42.47_output.jpeg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp Image 2025-08-25 at 12.46.30.jpeg" alt="Input Image">
+            <div class="caption">Input: WhatsApp Image 2025-08-25 at 12.46.30.jpeg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp Image 2025-08-25 at 12.46.30_output.jpeg" alt="Output Image">
+            <div class="caption">Output: WhatsApp Image 2025-08-25 at 12.46.30_output.jpeg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp Image 2025-08-25 at 12.48.16.jpeg" alt="Input Image">
+            <div class="caption">Input: WhatsApp Image 2025-08-25 at 12.48.16.jpeg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp Image 2025-08-25 at 12.48.16_output.jpeg" alt="Output Image">
+            <div class="caption">Output: WhatsApp Image 2025-08-25 at 12.48.16_output.jpeg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp Image 2025-08-25 at 12.50.27.jpeg" alt="Input Image">
+            <div class="caption">Input: WhatsApp Image 2025-08-25 at 12.50.27.jpeg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp Image 2025-08-25 at 12.50.27_output.jpeg" alt="Output Image">
+            <div class="caption">Output: WhatsApp Image 2025-08-25 at 12.50.27_output.jpeg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp Image 2025-08-25 at 14.00.05.jpeg" alt="Input Image">
+            <div class="caption">Input: WhatsApp Image 2025-08-25 at 14.00.05.jpeg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp Image 2025-08-25 at 14.00.05_output.jpeg" alt="Output Image">
+            <div class="caption">Output: WhatsApp Image 2025-08-25 at 14.00.05_output.jpeg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/WhatsApp-Image-2023-02-03-at-5.33.48-PM-1.jpg" alt="Input Image">
+            <div class="caption">Input: WhatsApp-Image-2023-02-03-at-5.33.48-PM-1.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/WhatsApp-Image-2023-02-03-at-5.33.48-PM-1_output.jpg" alt="Output Image">
+            <div class="caption">Output: WhatsApp-Image-2023-02-03-at-5.33.48-PM-1_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/wide-front-scaled.jpg" alt="Input Image">
+            <div class="caption">Input: wide-front-scaled.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/wide-front-scaled_output.jpg" alt="Output Image">
+            <div class="caption">Output: wide-front-scaled_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/Winterlake-Ooty-Villa-Venkitesh-6-1024x1024.jpg" alt="Input Image">
+            <div class="caption">Input: Winterlake-Ooty-Villa-Venkitesh-6-1024x1024.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/Winterlake-Ooty-Villa-Venkitesh-6-1024x1024_output.jpg" alt="Output Image">
+            <div class="caption">Output: Winterlake-Ooty-Villa-Venkitesh-6-1024x1024_output.jpg</div>
+        </div>
+        </div>
+    <div class="pair">
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/house_exterior_data - 2/Batch1/Primary_Exterior_Dataset/zhcvmme_1730112639_527704643_optOrig.jpg" alt="Input Image">
+            <div class="caption">Input: zhcvmme_1730112639_527704643_optOrig.jpg</div>
+        </div>
+    
+        <div class="image-container">
+            <img src="C:/Users/gaura/Current_Code_Files/Internship_Project/OutputImages/zhcvmme_1730112639_527704643_optOrig_output.jpg" alt="Output Image">
+            <div class="caption">Output: zhcvmme_1730112639_527704643_optOrig_output.jpg</div>
+        </div>
+        </div>
+</body>
+</html>
