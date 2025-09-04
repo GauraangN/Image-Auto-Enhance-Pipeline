@@ -1,0 +1,12 @@
+numpy
+opencv-python
+scikit-image
+Pillow
+matplotlib
+scipy
+imageio
+tqdm
+jupyter
+ipykernel
+pandas
+seaborn
