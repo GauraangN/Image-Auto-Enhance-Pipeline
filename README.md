@@ -36,10 +36,7 @@ real-estate-enhancement/
 │
 ├── wizard/ # Jupyter notebooks for step-by-step wizard
 ├── batch_processing/ # Jupyter notebooks for batch processing scripts
-├── dataset/
-│ ├── interior/ # Interior real estate images
-│ └── exterior/ # Exterior real estate images
-├── outputs/ # Example processed results
+├── HTML comparison file of input and output
 ├── requirements.txt # Dependencies
 └── README.md # Documentation
 
