@@ -1,2 +1,45 @@
-# Image-Auto-Enhance-Pipeline
-A system for enhancing real estate images with contrast stretching, sharpening, CLAHE-based tone correction, saturation boosting, and denoising. It Includes: - Interactive Implementation Wizard to step through each stage.  - Batch Processing to process entire folders of images.  - Interior &amp; Exterior Real Estate Dataset for testing and evaluation.
+# 🏡 Real Estate Image Enhancement Pipeline
+
+This project provides a complete pipeline for **enhancing real estate images**.  
+It includes both **an interactive wizard** for experimenting with different enhancement methods step-by-step and a **batch processing module** for automatically enhancing all images in a folder.  
+A small dataset of **interior and exterior real estate images** is included for testing.
+
+---
+
+## ✨ Features
+- 📊 **Pipeline Stages**:
+  - Gamma Correction
+  - CLAHE-based Contrast & Tone Correction
+  - HSV Saturation Boost (adaptive + fixed)
+  - Contrast Stretching
+  - Image Sharpening (Filter2D & Unsharp Masking)
+  - Gaussian & Median Blurring
+  - Denoising
+
+- 🧑‍💻 **Implementation Wizard**  
+  Interactively experiment with enhancement stages:
+  - Preview 3 parameter variants at each stage.
+  - Option to **continue** with a chosen result or **skip** the stage.
+
+- ⚡ **Batch Processing**  
+  - Input: a folder of raw images.  
+  - Output: a folder of enhanced images (same filenames).  
+  - Runs the full pipeline sequentially.
+
+- 🏠 **Dataset Included**  
+  - Example **interior** and **exterior** property images.  
+  - Useful for testing and benchmarking.
+
+---
+## 📂 Project Structure
+real-estate-enhancement/
+│
+├── wizard/ # Jupyter notebooks for step-by-step wizard
+├── batch_processing/ # Jupyter notebooks for batch processing scripts
+├── dataset/
+│ ├── interior/ # Interior real estate images
+│ └── exterior/ # Exterior real estate images
+├── outputs/ # Example processed results
+├── requirements.txt # Dependencies
+└── README.md # Documentation
+
