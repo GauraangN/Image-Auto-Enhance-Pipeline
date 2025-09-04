@@ -9,12 +9,12 @@ A small dataset of **interior and exterior real estate images** is included for 
 ## ✨ Features
 - 📊 **Pipeline Stages**:
   - Gamma Correction
+  - Denoising
   - CLAHE-based Contrast & Tone Correction
   - HSV Saturation Boost (adaptive + fixed)
   - Contrast Stretching
   - Image Sharpening (Filter2D & Unsharp Masking)
   - Gaussian & Median Blurring
-  - Denoising
 
 - 🧑‍💻 **Implementation Wizard**  
   Interactively experiment with enhancement stages:
