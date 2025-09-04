@@ -18,9 +18,9 @@ A small dataset of **interior and exterior real estate images** is included for 
 
 - 🧑‍💻 **Implementation Wizard**  
   Interactively experiment with enhancement stages:
-  - Preview 3 parameter variants at each stage.
-  - Option to **continue** with a chosen result or **skip** the stage.
-
+  - Option to **continue** with the stage or **skip**.
+  - Preview 3 options based on parameter variants at each stage.
+  
 - ⚡ **Batch Processing**  
   - Input: a folder of raw images.  
   - Output: a folder of enhanced images (same filenames).  
